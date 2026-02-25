@@ -51,7 +51,6 @@ MultipleFiles/ ├── app.py ├── diamond_regressor.pkl ├── diamon
     ```bash
     pip install streamlit pandas scikit-learn numpy
     ```
-    *(Note: A `requirements.txt` file is not explicitly provided in the context, but these are the libraries identified from `app.py` and `Diamonds J.ipynb`.)*
 
 3.  **Ensure Model and Scaler Files are Present**
     Make sure `diamond_regressor.pkl` and `diamond_scaler.pkl` are in the `MultipleFiles` directory. These are binary files and should be included in your repository.
